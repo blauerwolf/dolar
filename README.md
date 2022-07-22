@@ -3,3 +3,6 @@
 
 # Uso
 python3 dolar.py
+
+## Dependencias
+BeautifulSoup
