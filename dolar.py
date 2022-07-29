@@ -10,6 +10,7 @@
 
 
 from bs4 import BeautifulSoup
+import datetime
 import requests
 import re
 import sys
@@ -47,7 +48,9 @@ CEND = '\33[1m'
 SYMBOL = ''
 
 status = dolar_status(protocolo, url)
+fecha = datetime.datetime.now()
 
-print("\n\33[0m%s%sValor del Dolar promedio Venta:\33[0m %s%s%s\33[0m\n" % (CRED, CEND,CRED,CEND, status))
+print("\n\33[0m%sValor del Dolar promedio Venta\33[0m" % (CEND))
+print("\n\33[0m%s%s%s:\33[0m %s%s%s\33[0m\n" % (CRED,CEND, fecha.strftime("%d/%m/%Y %H:%M:%S"),CRED,CEND, status))
 
 
