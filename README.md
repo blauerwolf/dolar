@@ -3,10 +3,14 @@
 
 # Uso
 python3 dolar.py
+
 > Nota: Para más pánico, desde la consola:
 
 ```
-watch --color -n 60 python3 ./dolar.py
+watch --color -n 60 python3 ./dolar.py [UNIX/LINUX]
+
+while (1) {python.exe dolar.py; sleep 60} [WINDOWS/POWERSHELL]
+
 ```
 
 ## Dependencias
