@@ -3,6 +3,11 @@
 
 # Uso
 python3 dolar.py
+> Nota: Para más pánico, desde la consola:
+
+```
+watch --color -n 60 python3 ./dolar.py
+```
 
 ## Dependencias
 BeautifulSoup
